@@ -1,26 +1,39 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { CursorGlow } from "@/components/landing/CursorGlow";
+import { Header } from "@/components/landing/Header";
+import { Hero } from "@/components/landing/Hero";
+import { Benefits, CaseStudy, PainPoints, Results, Solution, Trust } from "@/components/landing/Sections";
+import { Offer } from "@/components/landing/Offer";
+import { LeadForm } from "@/components/landing/LeadForm";
+import { FAQ } from "@/components/landing/FAQ";
+import { FooterCTA } from "@/components/landing/FooterCTA";
+import { FloatingActions } from "@/components/landing/FloatingActions";
+import { ExitIntent } from "@/components/landing/ExitIntent";
 
 export const Route = createFileRoute("/")({
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <main className="relative bg-background text-foreground overflow-x-hidden">
+      <CursorGlow />
+      <Header />
+      <Hero />
+      <PainPoints />
+      <Solution />
+      <Benefits />
+      <Trust />
+      <Results />
+      <CaseStudy />
+      <Offer />
+      <LeadForm />
+      <FAQ />
+      <FooterCTA />
+      <FloatingActions />
+      <ExitIntent />
+      {/* spacer for mobile sticky CTA */}
+      <div className="md:hidden h-20" aria-hidden />
+    </main>
+  );
 }
