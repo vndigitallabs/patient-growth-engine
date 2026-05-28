@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "AI-powered patient acquisition for hospitals and clinics in Nalgonda. Google Ads, landing pages, WhatsApp automation. Get a free growth audit.",
       },
       { name: "author", content: "VN Digital Labs" },
-      { property: "og:title", content: "VN Digital Labs — AI Patient Growth for Hospitals & Clinics" },
+      { property: "og:title", content: "VN Digital Labs — AI Patient Growth for Hospitals & Clinics in Nalgonda" },
       {
         property: "og:description",
         content:
@@ -87,6 +87,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "VN Digital Labs — AI Patient Growth for Hospitals & Clinics in Nalgonda" },
+      { name: "description", content: "A premium, mobile-responsive landing page designed to convert hospital and clinic traffic into patient leads." },
+      { property: "og:description", content: "A premium, mobile-responsive landing page designed to convert hospital and clinic traffic into patient leads." },
+      { name: "twitter:description", content: "A premium, mobile-responsive landing page designed to convert hospital and clinic traffic into patient leads." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/85bbc0b2-c1b8-4219-8114-156a944af7cc/id-preview-ea0715db--2294bef4-a544-4443-9c6a-d2c20e728ef4.lovable.app-1779988096815.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/85bbc0b2-c1b8-4219-8114-156a944af7cc/id-preview-ea0715db--2294bef4-a544-4443-9c6a-d2c20e728ef4.lovable.app-1779988096815.png" },
     ],
     links: [
       {
