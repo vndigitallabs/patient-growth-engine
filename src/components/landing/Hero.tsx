@@ -18,16 +18,16 @@ export function Hero() {
           </div>
 
           <h1
-            className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight animate-reveal"
+            className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.1] sm:leading-[1.05] tracking-tight animate-reveal"
             style={{ animationDelay: "120ms" }}
           >
             Grow your hospital or clinic with{" "}
-            <span className="relative inline-block">
+            <span className="relative inline-block pb-2">
               <span className="bg-gold-gradient bg-clip-text text-transparent">
                 AI-powered
               </span>
               <svg
-                className="absolute -bottom-2 left-0 w-full"
+                className="absolute bottom-0 left-0 w-full"
                 viewBox="0 0 200 12"
                 preserveAspectRatio="none"
               >
