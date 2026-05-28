@@ -50,7 +50,7 @@ export function Hero() {
           </h1>
 
           <p
-            className="mt-6 text-base sm:text-lg lg:text-xl text-white/75 max-w-2xl leading-relaxed animate-reveal"
+            className="mt-6 text-base sm:text-lg lg:text-xl text-white/75 max-w-2xl mx-auto leading-relaxed animate-reveal"
             style={{ animationDelay: "240ms" }}
           >
             VN Digital Labs helps hospitals and clinics in Nalgonda generate more patient
