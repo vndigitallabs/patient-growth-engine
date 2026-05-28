@@ -101,7 +101,7 @@ export function Hero() {
 
         {/* Stats card */}
         <div
-          className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl animate-reveal"
+          className="mt-16 mx-auto grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl animate-reveal"
           style={{ animationDelay: "600ms" }}
         >
           {[
