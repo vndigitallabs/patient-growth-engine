@@ -59,7 +59,7 @@ export function Hero() {
           </p>
 
           <div
-            className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 animate-reveal"
+            className="mt-8 flex flex-col items-center sm:flex-row sm:justify-center gap-3 sm:gap-4 animate-reveal"
             style={{ animationDelay: "360ms" }}
           >
             <a
