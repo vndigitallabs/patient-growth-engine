@@ -7,8 +7,8 @@ export function Hero() {
     <section id="top" className="relative min-h-[100svh] overflow-hidden text-white">
       <HeroBackground />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-4 pt-36 sm:pt-40 pb-24 sm:pb-32">
-        <div className="max-w-3xl">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 pt-32 sm:pt-40 pb-24 sm:pb-32">
+        <div className="max-w-3xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 rounded-full glass px-3 py-1.5 text-xs sm:text-sm font-medium animate-reveal">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full rounded-full bg-teal opacity-75 animate-ping" />
