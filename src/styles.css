@@ -178,6 +178,19 @@
     background-clip: text;
     color: transparent;
   }
+  .hero-gradient-text {
+    background: linear-gradient(90deg, oklch(0.68 0.13 195), oklch(0.72 0.14 250), oklch(0.75 0.13 280), oklch(0.68 0.13 195));
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 0 18px oklch(0.68 0.13 195 / 0.45)) drop-shadow(0 0 6px oklch(0.72 0.14 250 / 0.35));
+    animation: gradient-shift 5s linear infinite;
+  }
+  @keyframes gradient-shift {
+    0% { background-position: 0% center; }
+    100% { background-position: 200% center; }
+  }
   .shadow-elegant { box-shadow: var(--shadow-elegant); }
   .shadow-glow { box-shadow: var(--shadow-glow); }
   .shadow-card { box-shadow: var(--shadow-card); }
