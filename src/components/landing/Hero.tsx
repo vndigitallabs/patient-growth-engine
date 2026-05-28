@@ -22,29 +22,10 @@ export function Hero() {
             style={{ animationDelay: "120ms" }}
           >
             Grow your hospital or clinic with{" "}
-            <span className="relative inline-block pb-2">
-              <span className="bg-gold-gradient bg-clip-text text-transparent">
+            <span className="relative inline-block">
+              <span className="hero-gradient-text">
                 AI-powered
               </span>
-              <svg
-                className="absolute bottom-0 left-0 w-full"
-                viewBox="0 0 200 12"
-                preserveAspectRatio="none"
-              >
-                <path
-                  d="M2 8 Q 50 2, 100 6 T 198 5"
-                  fill="none"
-                  stroke="url(#g1)"
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                />
-                <defs>
-                  <linearGradient id="g1" x1="0" x2="1">
-                    <stop offset="0%" stopColor="oklch(0.82 0.14 85)" />
-                    <stop offset="100%" stopColor="oklch(0.72 0.16 60)" />
-                  </linearGradient>
-                </defs>
-              </svg>
             </span>{" "}
             patient acquisition
           </h1>
