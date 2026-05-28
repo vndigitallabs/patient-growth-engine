@@ -7,8 +7,8 @@ export function Hero() {
     <section id="top" className="relative min-h-[100svh] overflow-hidden text-white">
       <HeroBackground />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-4 pt-36 sm:pt-40 pb-24 sm:pb-32">
-        <div className="max-w-3xl">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 pt-32 sm:pt-40 pb-24 sm:pb-32">
+        <div className="max-w-3xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 rounded-full glass px-3 py-1.5 text-xs sm:text-sm font-medium animate-reveal">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full rounded-full bg-teal opacity-75 animate-ping" />
@@ -18,16 +18,16 @@ export function Hero() {
           </div>
 
           <h1
-            className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight animate-reveal"
+            className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-bold leading-[1.1] sm:leading-[1.05] tracking-tight animate-reveal"
             style={{ animationDelay: "120ms" }}
           >
             Grow your hospital or clinic with{" "}
-            <span className="relative inline-block">
+            <span className="relative inline-block pb-2">
               <span className="bg-gold-gradient bg-clip-text text-transparent">
                 AI-powered
               </span>
               <svg
-                className="absolute -bottom-2 left-0 w-full"
+                className="absolute bottom-0 left-0 w-full"
                 viewBox="0 0 200 12"
                 preserveAspectRatio="none"
               >
@@ -50,7 +50,7 @@ export function Hero() {
           </h1>
 
           <p
-            className="mt-6 text-base sm:text-lg lg:text-xl text-white/75 max-w-2xl leading-relaxed animate-reveal"
+            className="mt-6 text-base sm:text-lg lg:text-xl text-white/75 max-w-2xl mx-auto leading-relaxed animate-reveal"
             style={{ animationDelay: "240ms" }}
           >
             VN Digital Labs helps hospitals and clinics in Nalgonda generate more patient
@@ -59,7 +59,7 @@ export function Hero() {
           </p>
 
           <div
-            className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 animate-reveal"
+            className="mt-8 flex flex-col items-center sm:flex-row sm:justify-center gap-3 sm:gap-4 animate-reveal"
             style={{ animationDelay: "360ms" }}
           >
             <a
@@ -81,7 +81,7 @@ export function Hero() {
           </div>
 
           <div
-            className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-white/70 animate-reveal"
+            className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-white/70 animate-reveal"
             style={{ animationDelay: "480ms" }}
           >
             <div className="flex items-center gap-2">
@@ -101,7 +101,7 @@ export function Hero() {
 
         {/* Stats card */}
         <div
-          className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl animate-reveal"
+          className="mt-16 mx-auto grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl animate-reveal"
           style={{ animationDelay: "600ms" }}
         >
           {[
