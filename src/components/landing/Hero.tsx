@@ -92,7 +92,7 @@ export function Hero() {
             ["100%", "Local Nalgonda focus"],
           ].map(([n, l]) => (
             <div key={l} className="glass rounded-2xl p-4 sm:p-5">
-              <div className="text-2xl sm:text-3xl font-bold bg-gold-gradient bg-clip-text text-transparent">
+              <div className="text-2xl sm:text-3xl font-bold metric-gradient-text">
                 {n}
               </div>
               <div className="text-xs sm:text-sm text-white/70 mt-1">{l}</div>
