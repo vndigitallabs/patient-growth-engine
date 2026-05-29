@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { Phone, Sparkles } from "lucide-react";
+import { Phone } from "lucide-react";
 import { PHONE, PHONE_DISPLAY } from "./constants";
 import { cn } from "@/lib/utils";
+import vnLogo from "@/assets/vn-logo.png";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -29,8 +30,8 @@ export function Header() {
           )}
         >
           <a href="#top" className="flex items-center gap-2 group">
-            <span className="relative inline-flex h-9 w-9 items-center justify-center rounded-xl bg-primary-gradient shadow-glow">
-              <Sparkles className="h-5 w-5 text-white" />
+            <span className="relative inline-flex h-10 w-10 items-center justify-center rounded-xl bg-black/40 ring-1 ring-white/10 overflow-hidden shadow-glow">
+              <img src={vnLogo} alt="VN Digital Labs logo" className="h-full w-full object-contain" />
             </span>
             <span className={cn("font-display font-semibold text-lg leading-none", scrolled ? "text-foreground" : "text-white")}>
               VN Digital Labs

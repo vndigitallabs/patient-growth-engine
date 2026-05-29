@@ -288,7 +288,7 @@ export function Results() {
             <Reveal key={s.l} delay={i * 70}>
               <TiltCard>
                 <div className="rounded-2xl bg-card shadow-card border border-border/60 p-6 text-center">
-                  <div className="text-4xl sm:text-5xl font-bold text-gradient">
+                  <div className="text-4xl sm:text-5xl font-bold metric-gradient-text">
                     <CountUp to={s.n} suffix={s.s} />
                   </div>
                   <div className="mt-2 text-sm text-muted-foreground">{s.l}</div>
@@ -340,7 +340,7 @@ export function CaseStudy() {
                 <div className="mt-8 grid grid-cols-3 gap-3">
                   {[["+212%", "Inquiries"], ["3.4×", "Bookings"], ["−61%", "Drop-off"]].map(([n, l]) => (
                     <div key={l} className="glass rounded-xl p-3 text-center">
-                      <div className="text-xl font-bold text-gradient-gold">{n}</div>
+                      <div className="text-xl font-bold metric-gradient-text">{n}</div>
                       <div className="text-[11px] uppercase tracking-wider text-white/60 mt-1">{l}</div>
                     </div>
                   ))}
